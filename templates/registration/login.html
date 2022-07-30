@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -60,7 +61,7 @@
             </button>
           </div>
           <div class="middle">
-            <img src="OR divider.png" alt="OR" srcset="" />
+            <img src="{% static 'images/OR.png' %}" alt="OR" srcset="" />
           </div>
           <form method="POST" name="form" onsubmit="validate()">
             <div class="bottom-last">
